@@ -7,6 +7,7 @@ blog_post.md
 
 # Node
 node_modules/
+dist/
 
 # Environment and secrets
 .env
@@ -15,6 +16,9 @@ node_modules/
 *.key
 *.pem
 
+# OpenClaw state
+.openclaw/
+
 # OS
 .DS_Store
 Thumbs.db
@@ -22,3 +26,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Docs and scripts not needed in image
+README.md
+ssh_rpi.sh
