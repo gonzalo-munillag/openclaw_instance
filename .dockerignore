@@ -1,0 +1,24 @@
+# Blog post draft
+blog_post.md
+
+# Git
+.git/
+.gitignore
+
+# Node
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
